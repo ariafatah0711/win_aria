@@ -1,0 +1,115 @@
+{
+  // formating 
+  "editor.fontLigatures": true,
+  "python.analysis.typeCheckingMode": "basic",
+  // "python.venvPath": "/home/aria/Dokumen/Python_Aria/env/bin/python",
+  "[javascript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[python]": {
+    "editor.formatOnType": true,
+    "editor.defaultFormatter": "ms-python.python"
+  },
+  "[html]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[css]": {
+    "editor.formatOnSave": true,
+    "editor.suggest.insertMode": "replace",
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+
+  // git
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "workbench.startupEditor": "none",
+  "discord.lowerDetailsIdling": "ngoding dulu banh hehe",
+  "discord.detailsIdling": "ngoding dulu banh hehe",
+  "window.zoomLevel": -1,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "haskell.manageHLS": "GHCup",
+  "editor.accessibilitySupport": "off",
+  "prettier.printWidth": 130,
+  "liveServer.settings.donotShowInfoMsg": true,
+
+  // terminal
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+  "terminal.integrated.fontSize": 11.5,
+  "terminal.integrated.enableMultiLinePasteWarning": "always",
+  "terminal.integrated.cursorStyle": "underline",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    },
+    "Windows PowerShell": {
+      "path": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.shellIntegration.enabled": false,
+  "gitlens.graph.layout": "editor",
+  "security.workspace.trust.untrustedFiles": "open",
+
+  // theme
+  "workbench.colorTheme": "GitHub Dark Default",
+  "workbench.productIconTheme": "fluent-icons",
+  "workbench.iconTheme": "vscode-jetbrains-icon-theme-2023-dark",
+  "workbench.editor.empty.hint": "hidden",
+  // "workbench.editor.showTabs": "single",
+  // "workbench.tree.indent": 16,
+
+  // bredcumbs
+  "breadcrumbs.enabled": false,
+  "breadcrumbs.symbolPath": "off",
+  "breadcrumbs.filePath": "on",
+
+  // editor
+  "editor.fontFamily": "Fira Code",
+  "editor.fontSize": 12,
+  "editor.lineHeight": 22,
+  "editor.fontWeight": 450,
+  "editor.lineNumbers": "on", 
+  "editor.folding": false,
+  "editor.glyphMargin": true,
+  "editor.guides.indentation": false,
+  "editor.scrollbar.horizontal": "auto",
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "editor.cursorStyle": "underline",
+  "editor.minimap.enabled": false,
+  "editor.wordWrap": "on",
+  "editor.stickyScroll.enabled": true,
+
+  "window.menuBarVisibility": "compact",
+  "workbench.layoutControl.enabled": false,
+  // "explorer.title": "${workspaceFolder}",
+
+  // vscode custom css
+  "vscode_custom_css.imports": [
+    "file:///C:/Users/ariaf/.vscode_aria/style.css",
+  ],
+
+  "workbench.colorCustomizations": {
+    "sideBar.background": "#0d1117",
+    "sideBar.foreground": "#808498",
+    "terminal.background": "#0d1117",
+    "outputView.background": "#0d1117",
+  }
+}
+// 'Droid Sans Mono', 'monospace', monospace

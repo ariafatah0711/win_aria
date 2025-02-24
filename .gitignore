@@ -1,0 +1,9 @@
+node_modules
+trash
+package-lock.json
+.idea/
+.vscode/
+
+# exclaude
+neobrutal-zebar
+tmp*
