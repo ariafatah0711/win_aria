@@ -1,6 +1,6 @@
 # My Dotfiles for Windows
 
-[setup_windows_app](setup_windows.md)
+[setup windows after install by ariaf](./setup/)
 
 ## Preview
 
