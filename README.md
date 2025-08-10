@@ -13,10 +13,10 @@
 ### Zebar Preview
 
 - **Main View**  
-  ![Main Preview](image/README/image.png)
+  ![Main Preview](images/README/image.png)
 
 - **Settings View**  
-  ![Settings Preview](image/README/image-1.png)
+  ![Settings Preview](images/README/image-1.png)
 
 ### How to Set Up Zebar
 
@@ -69,7 +69,7 @@ After building, reload Zebar to apply the changes.
 
 You can now find the `quiet-velvet/main` widget configuration available!
 
-![Widget Preview](image/README/image-2.png)
+![Widget Preview](images/README/image-2.png)
 
 ---
 

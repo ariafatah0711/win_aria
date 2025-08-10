@@ -1,8 +1,12 @@
-# after install
-## driver
-- [sdi-tool](https://sdi-tool.org/)
+# A. required (wajib)
+## 1. driver
+<!-- - [sdi-tool](https://sdi-tool.org/) -->
+- [youtube](https://youtu.be/r7kOhoqBTiA?si=N5-C-tLFm3i5SSiO)
+- [driver_mediafire](https://www.mediafire.com/file/8qhm7xb6q4p9svh/Driver_Workplus.rar/file)
 
-## setting
+> cara pakenya tinggal buka **device manager** kalo udh klik device yang ingin di install, lalu klik update, lalu pilih browser my computer drive, dan pilih path ke driver yang sudah di extract file rarnya
+
+## 2. setting
 - system > display > scale
   ubah menjadi 125% atau 110%
 - device > mouse > mouse pointer and touch
@@ -18,7 +22,8 @@
 - system > multitasking
   - show tabs from apps when snapping on pres alt + tab : dont show tabs
 
-# app
+# B. Install App
+## 1. app web
 - [hdd_sentinel](https://www.hdsentinel.com/download.php)
   pilih yang standar => ini berfungsi untuk melihat kesehatan hdd
 - [cystal_disk_info](https://crystalmark.info/en/)
@@ -28,8 +33,8 @@
 - [raidrive](https://www.raidrive.com/download)
   berfungsi untuk install menghubungkan ke nas / storage cloud
 
-## app install with scoop setup
-### intall scoop
+## 2. install with scoop
+### a. intall scoop
 ```bash
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
@@ -42,7 +47,7 @@ scoop info <package>
 # code (scoop which crystaldiskinfo) # jika ingin lihat manifestnya
 ```
 
-## app_minimal
+### b. app_minimal
 ```bash
 scoop bucket add extras
 
@@ -57,7 +62,7 @@ scoop bucket add extras
 scoop install 
 ``` -->
 
-# more
+## 3. tools
 ## powertoys
 ### zoom
 - 1 => 2 (zoom only)
@@ -65,12 +70,12 @@ scoop install
 - 3 => 4
 - 4 => 3 (zoom with mouse)
 
-## app tambahan
-### vbox
+# C. Opsional
+## 1. vbox
 - [virtual box](https://www.virtualbox.org/)
 
 > jika ada error
-#### 1. need Microsoft Visual C++ 2019
+### 1. need Microsoft Visual C++ 2019
 ![alt text](images/setup_windows/image.png)
 
 lakukan install ini [c++](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170)
@@ -84,8 +89,14 @@ setelah itu jangan lupa add env variable untuk vboxmanage cli
 5. Tutup PowerShell, buka lagi, lalu coba:
 6. test di terminal ```vboxmanage --version```
 
-### vagrant
+## vagrant
 ```bash
 scoop install vagrant
 vagrant --version
 ```
+
+> jangan lupa ubah path default vm ya biar enak
+
+1. Buka VirtualBox → File → Preferences → tab General → Default Machine Folder
+2. Ganti ke folder tujuan, misalnya D:\VMs
+3. Semua VM baru akan disimpan di sana.
