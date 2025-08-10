@@ -1,5 +1,7 @@
 # My Dotfiles for Windows
 
+[setup_windows_app](setup_windows.md)
+
 ## Preview
 
 [![Watch the video](./preview.png)](https://youtu.be/R6P4njG09I0)
@@ -11,10 +13,10 @@
 ### Zebar Preview
 
 - **Main View**  
-  ![Main Preview](images/README/image.png)
+  ![Main Preview](image/README/image.png)
 
 - **Settings View**  
-  ![Settings Preview](images/README/image-1.png)
+  ![Settings Preview](image/README/image-1.png)
 
 ### How to Set Up Zebar
 
@@ -67,7 +69,7 @@ After building, reload Zebar to apply the changes.
 
 You can now find the `quiet-velvet/main` widget configuration available!
 
-![Widget Preview](images/README/image-2.png)
+![Widget Preview](image/README/image-2.png)
 
 ---
 
