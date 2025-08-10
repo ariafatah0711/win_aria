@@ -8,6 +8,9 @@
   CrystalDiskMark (untuk speed test)
 - [raidrive](https://www.raidrive.com/download)
   berfungsi untuk install menghubungkan ke nas / storage cloud
+- [aomeibackup](https://www.aomeitech.com/ab/)
+  berfungsi untuk backup data
+  ![alt text](images/1_install_app/image.png)
 
 ## 3. application installer
 ### learning
@@ -36,5 +39,5 @@ scoop info <package>
 scoop bucket add extras
 
 scoop install git speedtest-cli openssh
-# scop install curl
+scoop install nmap
 ```
