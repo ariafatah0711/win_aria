@@ -1,6 +1,4 @@
 # after install
-- login microssft akun
-
 ## driver
 - [sdi-tool](https://sdi-tool.org/)
 
@@ -52,12 +50,12 @@ scoop install git speedtest
 # scoop install crystaldiskinfo # 
 ```
 
-## app medium
+<!-- ## app medium
 ```bash
 scoop bucket add extras
 
 scoop install 
-```
+``` -->
 
 # more
 ## powertoys
@@ -66,3 +64,28 @@ scoop install
 - 2 => 1 (draw)
 - 3 => 4
 - 4 => 3 (zoom with mouse)
+
+## app tambahan
+### vbox
+- [virtual box](https://www.virtualbox.org/)
+
+> jika ada error
+#### 1. need Microsoft Visual C++ 2019
+![alt text](images/setup_windows/image.png)
+
+lakukan install ini [c++](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170)
+
+setelah itu jangan lupa add env variable untuk vboxmanage cli
+
+1. Tekan Win + S → ketik environment variables → pilih Edit the system environment variables.
+2. Klik Environment Variables...
+3. Di bagian System variables, pilih Path → Edit.
+4. Klik New, masukkan: ```C:\Program Files\Oracle\VirtualBox```
+5. Tutup PowerShell, buka lagi, lalu coba:
+6. test di terminal ```vboxmanage --version```
+
+### vagrant
+```bash
+scoop install vagrant
+vagrant --version
+```
