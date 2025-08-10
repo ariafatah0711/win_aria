@@ -17,6 +17,8 @@
   - taskbar behavior
     - enable: automatic hide taskbar
     - disable: show badges, show flashing app
+- system > multitasking
+  - show tabs from apps when snapping on pres alt + tab : dont show tabs
 
 # app
 - [hdd_sentinel](https://www.hdsentinel.com/download.php)
@@ -27,7 +29,7 @@
   CrystalDiskMark (untuk speed test)
 - [raidrive](https://www.raidrive.com/download)
   berfungsi untuk install menghubungkan ke nas / storage cloud
-  
+
 ## app install with scoop setup
 ### intall scoop
 ```bash
@@ -56,3 +58,11 @@ scoop bucket add extras
 
 scoop install 
 ```
+
+# more
+## powertoys
+### zoom
+- 1 => 2 (zoom only)
+- 2 => 1 (draw)
+- 3 => 4
+- 4 => 3 (zoom with mouse)
