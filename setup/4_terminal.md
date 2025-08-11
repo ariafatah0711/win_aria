@@ -36,7 +36,7 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope LocalMachine
 oh-my-posh init pwsh | Invoke-Expression
 ```
 
-> if ur want remove ms u can add --no-logo in setting windows-powershell.exe --no-logo (tapi pas dicoba agak ngebug dulu bisa)
+> if ur want remove ms u can add **-nologo** in setting windows-powershell.exe **-nologo**
 
 ## setting terminal
 - [setting.json](./config/terminal/setting.json)
