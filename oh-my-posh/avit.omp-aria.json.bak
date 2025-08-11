@@ -1,0 +1,82 @@
+{
+    "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+    "blocks": [
+      {
+        "alignment": "left",
+        "segments": [
+          {
+           "type": "text",
+           "template": "\n"
+          },
+          {
+            "foreground": "#ffffff",
+            "properties": {
+              "style": "full"
+            },
+            "style": "plain",
+            "template": "{{ .Path }} ",
+            "type": "path"
+          },
+          {
+            "foreground": "#C2C206",
+            "style": "plain",
+            "template": "{{ .HEAD }} ",
+            "type": "git"
+          },
+          {
+            "foreground": "#B5B50D",
+            "style": "plain",
+            "template": " \uf0e7 ",
+            "type": "root"
+          },
+          {
+            "foreground": "#C94A16",
+            "style": "plain",
+            "template": "x{{ reason .Code }} ",
+            "type": "status"
+          }
+        ],
+        "type": "prompt"
+      },
+      {
+        "alignment": "left",
+        "newline": true,
+        "segments": [
+          {
+            "type": "os",
+            "style": "diamond",
+            "foreground": "#e83516",
+            "template": "{{ if .WSL }}{{ end }} {{.Icon}} ",
+            "properties": {
+              "alpine": "\uf300",
+              "arch": "\uf303",
+              "centos": "\uf304",
+              "debian": "\uf306",
+              "elementary": "\uf309",
+              "fedora": "\uf30a",
+              "gentoo": "\uf30d",
+              "linux": "\ue712",
+              "macos": "\ue711",
+              "manjaro": "\uf312",
+              "mint": "\uf30f",
+              "opensuse": "\uf314",
+              "raspbian": "\uf315",
+              "ubuntu": "\uf31b",
+              "windows": "\ue70f",
+              "wsl": "",
+              "wsl_separator": ""
+            }
+          },
+          {
+            "foreground": "#007ACC",
+            "style": "plain",
+            "template": " \ue602",
+            "type": "text"
+          }
+        ],
+        "type": "prompt"
+      }
+    ],
+    "final_space": true,
+    "version": 2
+  }
