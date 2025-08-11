@@ -7,10 +7,13 @@
       "segments": [
         {
           "properties": {
-            "cache_duration": "none"
+            "cache_duration": "none",
+            "time_format": "15:04:05 02-Jan"
           },
-          "template": "\n",
-          "type": "text"
+          "template": "{{ .CurrentDate | date .Format }} ",
+          "foreground": "#00FFAA",
+          "type": "time",
+          "style": "plain"
         },
         {
           "properties": {
@@ -59,7 +62,6 @@
           "properties": {
             "alpine": "\uf300",
             "arch": "\uf303",
-            "cache_duration": "none",
             "centos": "\uf304",
             "debian": "\uf306",
             "elementary": "\uf309",
@@ -73,11 +75,21 @@
             "raspbian": "\uf315",
             "ubuntu": "\uf31b",
             "windows": "\ue70f",
+            "cache_duration": "none",
             "wsl": "",
             "wsl_separator": ""
           },
           "template": "{{ if .WSL }}{{ end }} {{.Icon}} ",
-          "foreground": "#e83516",
+          "foreground_templates": [
+            "{{ if eq .OS \"windows\" }}#00A4EF{{ end }}",
+            "{{ if eq .OS \"arch\" }}#1793D1{{ end }}",
+            "{{ if eq .OS \"ubuntu\" }}#E95420{{ end }}",
+            "{{ if eq .OS \"debian\" }}#A81D33{{ end }}",
+            "{{ if eq .OS \"fedora\" }}#294172{{ end }}",
+            "{{ if eq .OS \"manjaro\" }}#34BE5B{{ end }}",
+            "{{ if eq .OS \"macos\" }}#999999{{ end }}",
+            "{{ if eq .OS \"linux\" }}#FFDD00{{ end }}"
+          ],
           "type": "os",
           "style": "diamond"
         },
