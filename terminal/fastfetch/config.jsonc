@@ -1,0 +1,65 @@
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "logo": {
+        "type": "file",
+        "source": "E:/1_config/win_aria/terminal/fastfetch/logo/3.txt"
+    },
+    "modules": [
+        {
+            "type": "title",
+            "key": "User",
+            "format": "{user-name}"
+        },
+        {
+            "type": "title",
+            "key": "Hostname",
+            "format": "{host-name}"
+        },
+        {
+            "type": "os",
+            "format": "{pretty-name} {version-id} {arch}"
+        },
+        {
+            "type": "loadavg",
+            "key": "Load Average"
+        },
+        {
+            "type": "cpu",
+            "key": "CPU",
+            "format": "{cores-logical} x {name}"
+        },
+        {
+            "type": "gpu",
+            "format": "{name}"
+        },
+        {
+            "type": "memory",
+            "key": "RAM"
+        },
+        {
+            "type": "disk",
+            "key": "Disk",
+            "folders": "/"
+        },
+        "break",
+        "uptime",
+        "datetime",
+        {
+            "type": "battery",
+            "temp": true
+        },
+        "wifi",
+        {
+            "type": "localip",
+            "key": "LAN IP",
+            "showIpv6": true,
+            "showPrefixLen": false
+        },
+        "dns",
+        {
+            "type": "publicip",
+            "key": "WAN IP",
+            "timeout": 1000
+        }
+    ]
+}

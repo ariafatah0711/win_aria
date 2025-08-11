@@ -49,5 +49,6 @@ scoop info <package>
 scoop bucket add extras
 
 scoop install git speedtest-cli openssh
-scoop install nmap
+scoop install fastfetch
+scoop install nmap # agak bug nmapnya gak bisa di run (tapi dpt versi zenmap nya)
 ```

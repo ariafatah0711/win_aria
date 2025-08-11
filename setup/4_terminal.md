@@ -51,3 +51,29 @@ oh-my-posh init pwsh | Invoke-Expression
 ### Actions
 - ctrl + shift + r => split
 - ctrl d => new tab
+
+## fastfetch
+### install
+```bash
+scoop install fastfetch
+```
+
+### customize
+#### config
+- [../terminal/fastfetch/config.jsonc](../terminal/fastfetch/config.jsonc)
+
+#### ascii
+- [https://github.com/blyxyas/uwu-neofetch-art](https://github.com/blyxyas/uwu-neofetch-art)
+- [https://emojicombos.com/anime](https://emojicombos.com/anime)
+
+```bash
+fastfetch --config E:/1_config/win_aria/terminal/fastfetch/config.jsonc
+```
+
+#### persistent config
+```bash
+fastfetch --gen-config
+# The generated config file has been written in `C:/Users/ariaf/.config/fastfetch/config.jsonc`
+
+cp E:/1_config/win_aria/terminal/fastfetch/config.jsonc C:/Users/ariaf/.config/fastfetch/config.jsonc
+```
