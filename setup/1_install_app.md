@@ -10,9 +10,19 @@
   berfungsi untuk install menghubungkan ke nas / storage cloud
 - [aomeibackup](https://www.aomeitech.com/ab/)
   berfungsi untuk backup data
-  ![alt text](images/1_install_app/image.png)
+  ![alt text](images/1_install_app/image.png) [2](https://www.diskpart.com/download.html)
+- [aomeipartision](https://www.aomeitech.com/pa/)
+  berfungsi untuk partisi advance
 
 ## 3. application installer
+## microsft store
+- Vs Code
+- Spotify, Sound Cloud
+- WhatsApp, Unigram
+- Obs Studio
+- capcut
+- powertoys
+
 ### learning
 - [cisco_packet tracert](https://www.netacad.com/resources/lab-downloads) **wajib login**
 - [steam](https://store.steampowered.com/) **untuk game**
