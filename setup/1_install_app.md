@@ -50,5 +50,12 @@ scoop bucket add extras
 
 scoop install git speedtest-cli openssh
 scoop install fastfetch
-scoop install nmap # agak bug nmapnya gak bisa di run (tapi dpt versi zenmap nya)
+scoop install obsidian cursor
+
+# more tools
+scoop install grep # buat grep bisa pake | juga
+## example: ps | grep edge
+
+# depretec (gak bisa dipake lagi)
+# scoop install nmap
 ```

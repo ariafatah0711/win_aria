@@ -15,13 +15,13 @@ example:
 1. Alt + Enter
    - C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe - start another
    - start in: E:
-3. Alt + Q
+3. Alt + Shift + Q
    - ALt + F4
-4. Alt + E
+4. Alt + Shift + E
    - C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe - start another
-5. Alt + V
+5. Alt + Shift + V
    - C:\Users\ariaf\AppData\Local\Programs\Microsoft VS Code\Code.exe - show windows
-6. Alt + W
+6. Alt + Shift + W
    - C:\Users\ariaf\Downloads\apk\win_portable\winbox64.exe - show windows
 7. Alt + A
    - Ctrl + Win + Left

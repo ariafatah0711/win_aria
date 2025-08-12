@@ -1,0 +1,175 @@
+{
+  /* Formatting */
+  "editor.fontLigatures": true,
+  "python.analysis.typeCheckingMode": "basic",
+  // "python.venvPath": "/home/aria/Dokumen/Python_Aria/env/bin/python",
+  
+  "[javascript]": {
+      "editor.formatOnSave": true,
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  
+  "[python]": {
+      "editor.formatOnType": true,
+      "editor.defaultFormatter": "ms-python.python"
+  },
+  
+  "[html]": {
+      // "editor.formatOnSave": true,
+      "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  
+  "[css]": {
+      "editor.formatOnSave": true,
+      "editor.suggest.insertMode": "replace",
+      "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  
+  /* Git */
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  
+  /* VSCode Settings */
+  "workbench.startupEditor": "none",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "haskell.manageHLS": "GHCup",
+  "editor.accessibilitySupport": "off",
+  "prettier.printWidth": 130,
+  "liveServer.settings.donotShowInfoMsg": true,
+  
+  /* Terminal */
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+  "terminal.integrated.fontSize": 11.5,
+  "terminal.integrated.enableMultiLinePasteWarning": "always",
+  "terminal.integrated.cursorStyle": "underline",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.profiles.windows": {
+      "PowerShell": {
+          "source": "PowerShell",
+          "icon": "terminal-powershell"
+      },
+      "Command Prompt": {
+          "path": [
+              "${env:windir}\\Sysnative\\cmd.exe",
+              "${env:windir}\\System32\\cmd.exe"
+          ],
+          "args": [],
+          "icon": "terminal-cmd"
+      },
+      "Git Bash": {
+          "source": "Git Bash"
+      },
+      "Windows PowerShell": {
+          "path": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+      }
+  },
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.shellIntegration.enabled": true,
+  
+  /* GitLens */
+  "gitlens.graph.layout": "editor",
+  "security.workspace.trust.untrustedFiles": "open",
+  
+  /* Theme */
+  "workbench.colorTheme": "GitHub Dark Default",
+  "workbench.productIconTheme": "fluent-icons",
+  "workbench.iconTheme": "vscode-jetbrains-icon-theme-2023-dark",
+  "workbench.editor.empty.hint": "hidden",
+  
+  /* Breadcrumbs */
+  "breadcrumbs.enabled": false,
+  "breadcrumbs.symbolPath": "off",
+  "breadcrumbs.filePath": "on",
+  
+  /* Editor */
+  "editor.fontFamily": "Fira Code",
+  "editor.fontSize": 12,
+  "editor.lineHeight": 22,
+  "editor.fontWeight": 450,
+  "editor.lineNumbers": "on",
+  "editor.folding": false,
+  "editor.glyphMargin": true,
+  "editor.guides.indentation": false,
+  "editor.scrollbar.horizontal": "auto",
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "editor.cursorStyle": "underline",
+  "editor.minimap.enabled": false,
+  "editor.wordWrap": "on",
+  "editor.stickyScroll.enabled": true,
+  
+  /* Custom CSS */
+  "vscode_custom_css.imports": [
+      "file:///E:/1_config/win_aria/vscode/style.css",
+      "file:///E:/1_config/win_aria/vscode/script.js",
+  ],
+  
+  /* Workbench Customizations */
+  "workbench.colorCustomizations": {
+      "sideBar.background": "#0d1117",
+      "sideBar.foreground": "#808498",
+      "terminal.background": "#0d1117",
+      "outputView.background": "#0d1117"
+},
+  
+  /* Paste Image */
+  "pasteImage.path": "${currentFileDir}/images/${documentBaseName}",
+  "pasteImage.basePath": "${currentFileDir}",
+  "pasteImage.prefix": "",
+  "pasteImage.format": "![Alt Text](./${imageFilePath})",
+  "pasteImage.showFilePathConfirmInputBox": false,
+  
+  /* Markdown */
+  "markdown.copyFiles.destination": {
+      "**/*": "images/${documentBaseName}/"
+  },
+  
+  /* Database */
+  "database-client.autoSync": true,
+  
+  /* Discord Status */
+  "discord.detailsEditing": "Editing {dir_name}/{file_name}",
+  "discord.removeRemoteRepository": true,
+  "discord.lowerDetailsIdling": "Editing web/index.html",
+  "discord.detailsIdling": "Editing web/index.html",
+  
+  /* VSCord Settings */
+  "vscord.app.privacyMode.enable": true,
+  "vscord.app.whitelistEnabled": false,
+  "vscord.app.whitelistIsBlacklist": false,
+  
+  /* VSCord Status */
+  "vscord.status.details.text.notInFile": "Editing README.md",
+  "vscord.status.details.text.editing": "Editing README.md",
+  "vscord.status.details.text.viewing": "Editing README.md",
+  "vscord.status.details.text.debugging": "Editing README.md",
+  "vscord.status.details.text.idle": "Editing README.md",
+  
+  "vscord.status.image.large.notInFile.key": "https://raw.githubusercontent.com/ariafatah0711/win_aria/refs/heads/main/image/2.png",
+  "vscord.status.image.large.editing.key": "https://raw.githubusercontent.com/ariafatah0711/win_aria/refs/heads/main/image/2.png",
+  "vscord.status.image.large.viewing.key": "https://raw.githubusercontent.com/ariafatah0711/win_aria/refs/heads/main/image/2.png",
+  "vscord.status.image.large.debugging.key": "https://raw.githubusercontent.com/ariafatah0711/win_aria/refs/heads/main/image/2.png",
+  "vscord.status.image.large.idle.key": "https://raw.githubusercontent.com/ariafatah0711/win_aria/refs/heads/main/image/2.png",
+  
+  "vscord.status.details.enabled": true,
+  "vscord.status.problems.enabled": false,
+  "vscord.status.details.idle.enabled": true,
+  "vscord.status.idle.enabled": true,
+  "vscord.status.state.enabled": false,
+
+  /* button */
+//   "vscord.status.buttons.button1.active.enabled": true,
+//   "vscord.status.buttons.button1.git.idle.enabled": true,
+//   "vscord.status.buttons.button1.idle.enabled": true,
+//   "vscord.status.buttons.button1.idle.label": "test",
+//   "vscord.status.buttons.button1.idle.url": "https://ariaf.my.id",
+//   "vscord.status.buttons.button1.enabled": true,
+//   "vscord.status.buttons.button1.active.label": "Kunjungi Situs",
+//   "vscord.status.buttons.button1.active.url": "https://ariaf.my.id",
+
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "docker.extension.enableComposeLanguageServer": false,
+  "workbench.experimental.share.enabled": true,
+  "window.customTitleBarVisibility": "windowed"
+}
