@@ -7,28 +7,38 @@
 - 4 => 3 (zoom with mouse)
 
 ### keyboard manager
+- [shorcut_windows_full](https://tekno.kompas.com/read/2021/07/06/20200087/daftar-tombol-shortcut-di-windows-10-lengkap)
+
 #### Remap A Shorcuts
 example:
 - ![alt text](images/2_tools/image-1.png)
 - ![alt text](images/2_tools/image-4.png)
 
-1. Alt + Enter
-   - C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe - start another
-   - start in: E:
-3. Alt + Shift + Q
-   - ALt + F4
-4. Alt + Shift + E
-   - C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe - start another
-5. Alt + Shift + V
-   - C:\Users\ariaf\AppData\Local\Programs\Microsoft VS Code\Code.exe - show windows
-6. Alt + Shift + W
-   - C:\Users\ariaf\Downloads\apk\win_portable\winbox64.exe - show windows
-7. Alt + A (left dan right)
-   - Ctrl + Win + Left
-8. Alt + S (left dan right)
-   - Ctrl + Win + Right
-9. Alt + F
-   - F11
+- Alt + Enter => buka terminal
+  - C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe - start another
+  - start in: E:
+- Alt + Shift + Q => menutup aplikasi
+  - ALt + F4
+- Alt + Ctrl + F => buka file explor
+  - Win + E (open file explorer)
+- Alt + Ctrl + E => buka edge
+  - C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe - start another
+- Alt + Ctrl + V => buka vs code
+  - C:\Users\ariaf\AppData\Local\Programs\Microsoft VS Code\Code.exe - show windows
+- Alt + Ctrl + W => buka winbox
+  - C:\Users\ariaf\Downloads\apk\win_portable\winbox64.exe - show windows
+- Alt + F => fullscreen
+  - F11
+- Alt + A (left dan right) => pindah desktop ke kiri
+  - Ctrl + Win + Left
+- Alt + S (left dan right) => pindah desktop ke kanan
+  - Ctrl + Win + Right
+- Alt + D => minimize semua jendela
+  - Win + D (Minimize semua jendela)
+- Alt + Ctrl + ` => membuat desktop virtual
+  - Win + Ctrl + D (membuat desktop virtual)
+- Alt + ctrl + 1 => menutup desktop virtual
+  - Win + Ctrl + F4 (menutup desktop virtual yang sedang aktif)
 
 ### Always On Top
 - rename shorcut: **Alt + T**
