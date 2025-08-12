@@ -37,22 +37,33 @@ example:
 ### Workspaces
 - rename shorcut: **Ctrl + Shift + Enter**
 
-# backup
-## powertoys
-### manual backup
+### backup
+#### manual backup
 - Navigate to **%LOCALAPPDATA%\Microsoft\PowerToys\**
 - Copy the file settings.json to a safe location (like an external drive or cloud storage).
 
-### restore
+#### restore
 - Replace the new settings.json with your backup copy in **%LOCALAPPDATA%\Microsoft\PowerToys\.**
 - Restart PowerToys to load the saved settings.
 
-### automatic backup
+#### automatic backup
 - powertoys > general
 - backup
   ![alt text](images/2_tools/image-5.png)
 
-### automatic restore
+#### automatic restore
 - powertoys > general
 - restore (pastikan file nya sudah ada)
   ![alt text](images/2_tools/image-6.png)
+
+## 2. visualize your keystrokes and mouse
+### Keyviz
+- [Keyviz](https://mularahul.github.io/keyviz/)
+
+#### setup
+```bash
+scoop install keyviz
+```
+
+### NohBoard
+- [NohBoard](https://github.com/ThoNohT/NohBoard)
