@@ -1,24 +1,25 @@
 # My Dotfiles for Windows
-
+## setup 1 for setup my windows
 [setup windows after install by ariaf](./setup/)
 
-## Preview
+## setup 2 for zebar glaze wm and other
+### Preview
 
 [![Watch the video](./preview.png)](https://youtu.be/R6P4njG09I0)
 
 ---
 
-## Zebar
+### Zebar
 
-### Zebar Preview
+#### Zebar Preview
 
-- **Main View**  
+- **Main View**
   ![Main Preview](images/README/image.png)
 
-- **Settings View**  
+- **Settings View**
   ![Settings Preview](images/README/image-1.png)
 
-### How to Set Up Zebar
+#### How to Set Up Zebar
 
 1. **Install Zebar & GlazeWM**
 
@@ -73,9 +74,9 @@ You can now find the `quiet-velvet/main` widget configuration available!
 
 ---
 
-## GlazeWM
+### GlazeWM
 
-### How to Set Up GlazeWM
+#### How to Set Up GlazeWM
 
 1. **Install Zebar & GlazeWM**
 
@@ -96,9 +97,9 @@ mv glazewm ~/.glzr/glazewm/
 
 ---
 
-## Terminal Settings
+### Terminal Settings
 
-### How to Set Up Terminal
+#### How to Set Up Terminal
 
 1. **Clone the Repository**
 
@@ -115,17 +116,17 @@ mv settings.json %APPDATA%\Code\User\settings.json
 
 ---
 
-## Oh My Posh
+### Oh My Posh
 
-### (Coming Soon)
+#### (Coming Soon)
 
 > Full setup guide including themes and custom prompts will be added soon!
 
 ---
 
-## Startpage
+### Startpage
 
-### How to Set Up Startpage
+#### How to Set Up Startpage
 
 1. **Clone the Repository**
 
@@ -145,9 +146,9 @@ cd home
 
 ---
 
-## Spotify Configuration Guide
+### Spotify Configuration Guide
 
-### How to Get Your Spotify Tokens
+#### How to Get Your Spotify Tokens
 
 1. Go to [Spotify Developer Dashboard](https://developer.spotify.com/dashboard).
 2. Create a new application.
@@ -160,4 +161,3 @@ cd home
 ---
 
 > Built with passion by **Aria Fatah**. Happy customizing! 🚀
-

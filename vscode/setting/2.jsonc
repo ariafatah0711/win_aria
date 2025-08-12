@@ -153,11 +153,11 @@
   "vscord.status.details.text.debugging": "Editing README.md",
   "vscord.status.details.text.idle": "Editing README.md",
 
-  "vscord.status.image.large.notInFile.key": "https://raw.githubusercontent.com/ariafatah0711/win_aria/refs/heads/main/image/2.png",
-  "vscord.status.image.large.editing.key": "https://raw.githubusercontent.com/ariafatah0711/win_aria/refs/heads/main/image/2.png",
-  "vscord.status.image.large.viewing.key": "https://raw.githubusercontent.com/ariafatah0711/win_aria/refs/heads/main/image/2.png",
-  "vscord.status.image.large.debugging.key": "https://raw.githubusercontent.com/ariafatah0711/win_aria/refs/heads/main/image/2.png",
-  "vscord.status.image.large.idle.key": "https://raw.githubusercontent.com/ariafatah0711/win_aria/refs/heads/main/image/2.png",
+  "vscord.status.image.large.notInFile.key": "https://raw.githubusercontent.com/ariafatah0711/win_aria/refs/heads/main/vscode/image/2.png",
+  "vscord.status.image.large.editing.key": "https://raw.githubusercontent.com/ariafatah0711/win_aria/refs/heads/main/vscode/image/2.png",
+  "vscord.status.image.large.viewing.key": "https://raw.githubusercontent.com/ariafatah0711/win_aria/refs/heads/main/vscode/image/2.png",
+  "vscord.status.image.large.debugging.key": "https://raw.githubusercontent.com/ariafatah0711/win_aria/refs/heads/main/vscode/image/2.png",
+  "vscord.status.image.large.idle.key": "https://raw.githubusercontent.com/ariafatah0711/win_aria/refs/heads/main/vscode/image/2.png",
 
   "vscord.status.details.enabled": true,
   "vscord.status.problems.enabled": false,
