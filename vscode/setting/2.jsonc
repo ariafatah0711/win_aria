@@ -35,8 +35,6 @@
   "workbench.editor.empty.hint": "hidden",
 
   /* Workbench Customizations */
-  "workbench.sideBar.location": "left",
-  // "workbench.activityBar.location": "hidden",
   "workbench.colorCustomizations": {
       "sideBar.background": "#0d1117",
       "sideBar.foreground": "#808498",
@@ -44,10 +42,10 @@
       "outputView.background": "#0d1117"
   },
 
+
   /* explorer dan fiels */
   "explorer.compactFolders": false,
   "files.trimTrailingWhitespace": true,
-  "files.trimFinalNewlines": true,
   "files.insertFinalNewline": true,
 
   /* Breadcrumbs */
@@ -57,8 +55,8 @@
 
   /* Editor */
   "editor.fontLigatures": true,
-  // "editor.fontFamily": "Fira Code",
-  "editor.fontFamily": " Fira Code, Geist Mono, JetBrains Mono, Fira Code",
+  //   "editor.fontFamily": "JetBrainsMono Nerd Font",
+  "editor.fontFamily": "Fira Code",
   "editor.fontSize": 12,
   "editor.lineHeight": 20,
   "editor.fontWeight": 450,
@@ -73,14 +71,6 @@
   "editor.minimap.enabled": false,
   "editor.wordWrap": "on",
   "editor.stickyScroll.enabled": true,
-
-//   "editor.matchBrackets": "never",
-//   "problems.decorations.enabled": false,
-//   "editor.lightbulb.enabled": "off",
-//   "editor.selectionHighlight": false,
-//   "editor.occurrencesHighlight": "off",
-//   "editor.renderLineHighlight": "none",
-//   "editor.colorDecorators": false,
 
   /* Terminal */
   "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
