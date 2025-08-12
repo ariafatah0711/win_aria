@@ -40,6 +40,9 @@
 
 ### **Multitasking**
 - **System > Multitasking**
+  - **snap windows**
+    ![alt text](images/0_driver_setting/image-2.png)
+    - disable all
   - **Show tabs from apps when snapping or pressing Alt + Tab**: pilih **Don't show tabs**
 
 ### **Visual Effect**
