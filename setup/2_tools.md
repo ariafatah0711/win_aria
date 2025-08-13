@@ -14,6 +14,8 @@ example:
 - ![alt text](images/2_tools/image-1.png)
 - ![alt text](images/2_tools/image-4.png)
 
+> jangan lupa pake exact match di semua shorcut
+
 - Alt + Enter => buka terminal
   - C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe - start another
   - start in: E:
@@ -39,6 +41,15 @@ example:
   - Win + Ctrl + D (membuat desktop virtual)
 - Alt + ctrl + 1 => menutup desktop virtual
   - Win + Ctrl + F4 (menutup desktop virtual yang sedang aktif)
+
+> terkadang ketika menggunakan ini bisa menyebabkan bug di windows 11
+- contoh: windows 11 tb tb keyboardnya gak bisa di click WIN, dan tampilan click kanan pada desktop jadi gini
+  ![alt text](images/2_tools/image-7.png)
+- solusinya coba lakukan WIN + Shift + S
+  - untuk shorcut yang dimana itu bisa mempebaiki, dan jika udh berhasil coba click WIN apakah sudah berhasil jika sudah lakukan restart / shutdown
+  - karena bug ini kadang bikin bug di banyak hal.
+
+> kalo bsia jangan sampe restart sebelum di click WIN berhasil soalnya pas gw coba kadang bugnya bikin malah masuk ke recovery mode, dan kalo di shutdown dia biasanya malah unsafe shutdown ke detect
 
 ### Always On Top
 - rename shorcut: **Alt + T**
