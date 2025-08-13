@@ -31,16 +31,27 @@ example:
   - C:\Users\ariaf\Downloads\apk\win_portable\winbox64.exe - show windows
 - Alt + F => fullscreen
   - F11
-- Alt + A (left dan right) => pindah desktop ke kiri
+- Alt + A => pindah desktop ke kiri
   - Ctrl + Win + Left
-- Alt + S (left dan right) => pindah desktop ke kanan
+- Alt + S => pindah desktop ke kanan
   - Ctrl + Win + Right
 - Alt + D => minimize semua jendela
   - Win + D (Minimize semua jendela)
+
+> bawahnya opsional soalnya yang atas udh oke sih itu
+
 - Alt + Ctrl + ` => membuat desktop virtual
   - Win + Ctrl + D (membuat desktop virtual)
 - Alt + ctrl + 1 => menutup desktop virtual
   - Win + Ctrl + F4 (menutup desktop virtual yang sedang aktif)
+- Alt + Shift + H => memindahkan aplikasi ke kiri
+  - Win + Alt + Left
+- Alt + Shift + L =>
+  - Win + Alt + Right
+- Alt + Shift + J =>
+  - Win + Alt + Top
+- Alt + Shift + K =>
+  - Win + Alt + Bottom
 
 > terkadang ketika menggunakan ini bisa menyebabkan bug di windows 11
 - contoh: windows 11 tb tb keyboardnya gak bisa di click WIN, dan tampilan click kanan pada desktop jadi gini
