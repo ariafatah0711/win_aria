@@ -14,7 +14,7 @@
 - [aomeipartision](https://www.aomeitech.com/pa/)
   berfungsi untuk partisi advance
 
-## 3. application installer
+## 2. application installer
 ## microsft store
 - Vs Code
 - Spotify, Sound Cloud
@@ -27,10 +27,10 @@
 - [cisco_packet tracert](https://www.netacad.com/resources/lab-downloads) **wajib login**
 - [steam](https://store.steampowered.com/) **untuk game**
 
-## 4. application portable
+## 2. application portable
 - [winbox mikrotik](https://mikrotik.com/download) **terdapat 2 versi. versi 3 dan 4**
 
-## 2. install with scoop
+## 4. application with scoop
 ### a. intall scoop
 ```bash
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
@@ -51,6 +51,8 @@ scoop bucket add extras
 scoop install git speedtest-cli openssh
 scoop install fastfetch
 scoop install obsidian cursor
+scoop install nodejs
+scoop install nodejs-lts
 
 # more tools
 scoop install grep # buat grep bisa pake | juga
@@ -58,4 +60,8 @@ scoop install grep # buat grep bisa pake | juga
 
 # depretec (gak bisa dipake lagi)
 # scoop install nmap
+```
+
+## 5. python library wajib
+```bash
 ```
