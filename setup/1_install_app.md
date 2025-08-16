@@ -49,7 +49,7 @@ scoop info <package>
 scoop bucket add extras
 
 scoop install git speedtest-cli openssh
-scoop install fastfetch
+scoop install fastfetch adb scrcpy
 scoop install obsidian cursor
 scoop install nodejs
 scoop install nodejs-lts
