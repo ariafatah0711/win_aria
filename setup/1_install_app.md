@@ -72,10 +72,16 @@ scoop install grep # buat grep bisa pake | juga
 
 - buat folder misal di ```D:/msoffice````
 - lalu ketika run office deployment pilih folder itu
-- jika sudah jalankan perintah ini
+- jika sudah jalankan perintah ini di powershell admin
   ```bash
   ./setup.exe /download ./Configuration.xml
   ./setup.exe /configure ./Configuration.xml
+  ```
+
+### 2. https://massgrave.dev/
+- open windows powershell admin
+  ```bash
+  irm https://get.activated.win | iex
   ```
 
 ## 6. python library wajib
