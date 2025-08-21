@@ -27,7 +27,7 @@
 - [cisco_packet tracert](https://www.netacad.com/resources/lab-downloads) **wajib login**
 - [steam](https://store.steampowered.com/) **untuk game**
 
-## 2. application portable
+## 3. application portable
 - [winbox mikrotik](https://mikrotik.com/download) **terdapat 2 versi. versi 3 dan 4**
 
 ## 4. application with scoop
@@ -62,6 +62,22 @@ scoop install grep # buat grep bisa pake | juga
 # scoop install nmap
 ```
 
-## 5. python library wajib
+## 5. application with scoop
+### 1. office
+- [https://www.microsoft.com/en-us/download/details.aspx?id=49117](https://www.microsoft.com/en-us/download/details.aspx?id=49117)
+- [https://config.office.com/](https://config.office.com/)
+- [https://config.office.com/deploymentsettings](https://config.office.com/deploymentsettings)
+  - english
+  - word, powerpoint, excel
+
+- buat folder misal di ```D:/msoffice````
+- lalu ketika run office deployment pilih folder itu
+- jika sudah jalankan perintah ini
+  ```bash
+  ./setup.exe /download ./Configuration.xml
+  ./setup.exe /configure ./Configuration.xml
+  ```
+
+## 6. python library wajib
 ```bash
 ```
