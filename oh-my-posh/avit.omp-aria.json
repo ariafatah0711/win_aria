@@ -35,6 +35,18 @@
           "style": "plain"
         },
         {
+          "type": "python",
+          "style": "plain",
+          "foreground": "#906cff",
+          "template": "\uE235 {{ if .Venv }}({{ .Venv }}) {{ end }}{{ .Full }} ",
+          "properties": {
+            "display_mode": "environment",
+            "fetch_virtual_env": true,
+            "home_enabled": true,
+            "cache_duration": "none"
+          }
+        },
+        {
           "properties": {
             "cache_duration": "none"
           },
@@ -50,16 +62,6 @@
           "template": "x{{ reason .Code }} ",
           "foreground": "#C94A16",
           "type": "status",
-          "style": "plain"
-        },
-        {
-          "properties": {
-            "cache_duration": "none",
-            "display_mode": "environment"
-          },
-          "template": "🐍{{ if .Venv }}{{ .Venv }}{{ end }}{{ if .Conda }}{{ .Conda }}{{ end }} ",
-          "foreground": "#306998",
-          "type": "python",
           "style": "plain"
         }
       ]
