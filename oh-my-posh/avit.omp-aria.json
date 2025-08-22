@@ -51,6 +51,16 @@
           "foreground": "#C94A16",
           "type": "status",
           "style": "plain"
+        },
+        {
+          "properties": {
+            "cache_duration": "none",
+            "display_mode": "environment"
+          },
+          "template": "🐍{{ if .Venv }}{{ .Venv }}{{ end }}{{ if .Conda }}{{ .Conda }}{{ end }} ",
+          "foreground": "#306998",
+          "type": "python",
+          "style": "plain"
         }
       ]
     },
