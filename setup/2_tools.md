@@ -3,6 +3,35 @@
 ### zoom
 - 1 => 2 (zoom only)
 - 2 => 1 (draw)
+  - Warna
+    - R → merah
+    - G → hijau
+    - B → biru
+    - Y → kuning
+    - O → oranye
+    - P → pink
+  - shape
+    - Shift + drag → garis lurus.
+    - Ctrl + drag → persegi panjang.
+    - Tab + drag → elips.
+    - Shift + Ctrl + drag → panah.
+  - shorcut
+    - Ubah ketebalan pena: tekan Ctrl + gulir roda mouse atau tekan panah atas/bawah.
+    - Masuk / keluar mode gambar (saat sudah zoom): klik kiri.
+    - Keluar mode gambar: klik kanan.
+    - Undo (batalkan gambar terakhir): Ctrl + Z.
+    - Hapus semua gambar: tekan E.
+    - Pusatkan kursor: Spasi.
+  - Layar
+    - W → layar putih (seperti papan tulis).
+    - K → layar hitam.
+    - Ctrl + C → copy layar yang sedang dizoom.
+    - Ctrl + S → simpan layar yang sedang dizoom.
+    - Ctrl + Shift + C / S → crop lalu copy / save.
+  - Highlight & Blur
+    - Shift + (tombol warna) → warna jadi stabilo transparan.
+    - X → blur.
+    - Shift + X → blur lebih kuat.
 - 3 => 4
 - 4 => 3 (zoom with mouse)
 
