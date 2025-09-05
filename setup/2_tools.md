@@ -34,6 +34,8 @@
     - Shift + X → blur lebih kuat.
 - 3 => 4
 - 4 => 3 (zoom with mouse)
+  - Ctrl + Up => zoom in
+  - Ctrl + Down => zoom out
 
 ### keyboard manager
 - [shorcut_windows_full](https://tekno.kompas.com/read/2021/07/06/20200087/daftar-tombol-shortcut-di-windows-10-lengkap)
@@ -97,6 +99,9 @@ example:
 
 ### Workspaces
 - rename shorcut: **Ctrl + Shift + Enter**
+
+#### text extractor
+- enable text extractor: **WIN + SHIFT + T**
 
 ### backup
 #### manual backup
