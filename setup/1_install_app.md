@@ -87,3 +87,8 @@ scoop install grep # buat grep bisa pake | juga
 ## 6. python library wajib
 ```bash
 ```
+
+## 7. app ctf
+- [ftk-imager-4-7-3-81](https://www.exterro.com/ftk-product-downloads/ftk-imager-4-7-3-81)
+- [NET](https://dotnet.microsoft.com/id-id/download)
+- [Registry Explore by ericzimmerman](https://ericzimmerman.github.io/#!index.md)
