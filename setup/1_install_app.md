@@ -59,7 +59,9 @@ scoop install grep # buat grep bisa pake | juga
 ## example: ps | grep edge
 
 # depretec (gak bisa dipake lagi)
-# scoop install nmap
+scoop install nmap
+scoop install wireshark
+# sebelum itu install npcap dulu https://npcap.com/#download
 ```
 
 ## 5. application with scoop

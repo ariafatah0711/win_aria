@@ -37,6 +37,7 @@
   - **Taskbar behavior**:
     - Aktifkan: **Automatically hide the taskbar**
     - Nonaktifkan: **Show badges**, **Show flashing app**
+    - **show smaller taszkbar**, ubah jadi always
 
 ### **Multitasking**
 - **System > Multitasking**
