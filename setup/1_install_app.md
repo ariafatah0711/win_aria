@@ -62,6 +62,12 @@ scoop install grep # buat grep bisa pake | juga
 scoop install nmap
 scoop install wireshark
 # sebelum itu install npcap dulu https://npcap.com/#download
+
+# burp suite
+scoop bucket add nonportable
+scoop info burp-suite-community-np
+scoop cat burp-suite-community-np
+scoop install burp-suite-community-np
 ```
 
 ## 5. application with scoop
