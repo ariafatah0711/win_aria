@@ -133,3 +133,21 @@ scoop install keyviz
 
 ### NohBoard
 - [NohBoard](https://github.com/ThoNohT/NohBoard)
+
+## 3. AHK
+### setup
+- [AutoHotkey](https://www.autohotkey.com/)
+- [VirtualDesktopAccessor](https://github.com/Ciantic/VirtualDesktopAccessor)
+
+```bash
+scoop bucket add extras
+scoop install autohotkey
+```
+
+### startup
+```bash
+- C:\Users\<NAMAMU>\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
+- shell:startup
+
+- buat shorcut ke file ahk mu di folder ini
+```
