@@ -57,6 +57,17 @@ GetCurrentDesktop() {
     return DllCall("VirtualDesktopAccessor\GetCurrentDesktopNumber")
 }
 
+CreateDesktop() {
+    ; Create a new desktop and go to it
+    result := DllCall("VirtualDesktopAccessor\CreateDesktop")
+    if (result != -1) {
+        Sleep(100)
+        newCount := GetDesktopCount()
+        GoToDesktop(newCount - 1)
+    }
+    return result
+}
+
 ; Initialize tracking
 currentDesktop := GetCurrentDesktop()
 lastDesktop := currentDesktop
@@ -183,10 +194,19 @@ Alt & 9::
 }
 
 ; ============================================================
+; CREATE & REMOVE DESKTOP
+; ============================================================
+; ALT + CTRL + ` → Create new desktop
+!^`::
+{
+    CreateDesktop()
+}
+
+; ============================================================
 ; SHORCUT APPLICATION
 ; ============================================================
 ; ALT + ENTER → Terminal (PowerShell) di E:\
-Alt & Enter:: Run("powershell.exe", "E:\")
+Alt & Enter:: Run("C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe", "E:\")
 
 ; ALT + SHIFT + Q → Alt + F4 (Tutup aplikasi)
 !+q:: Send("!{F4}")
@@ -195,10 +215,13 @@ Alt & Enter:: Run("powershell.exe", "E:\")
 !^f:: Send("#e")
 
 ; ALT + CTRL + E → Microsoft Edge
-!^e:: Run("msedge.exe")
+!^e:: Run("C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe")
 
 ; ALT + CTRL + V → VS Code
-!^v:: Run("code")
+!^v:: Run("C:\Users\ariaf\AppData\Local\Programs\Microsoft VS Code\Code.exe")
 
 ; ALT + CTRL + W → Winbox
 !^w:: Run("C:\Users\ariaf\Downloads\apk\win_portable\winbox64.exe")
+
+; ALT + F11 -> Fullscreen
+Alt & f:: Send("{F11}")
