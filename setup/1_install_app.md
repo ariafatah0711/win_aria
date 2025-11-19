@@ -100,3 +100,7 @@ scoop install burp-suite-community-np
 - [ftk-imager-4-7-3-81](https://www.exterro.com/ftk-product-downloads/ftk-imager-4-7-3-81)
 - [NET](https://dotnet.microsoft.com/id-id/download)
 - [Registry Explore by ericzimmerman](https://ericzimmerman.github.io/#!index.md)
+
+## 8. Files
+- [files comunity](https://files.community/)
+- [file pilot](https://filepilot.tech/download)
