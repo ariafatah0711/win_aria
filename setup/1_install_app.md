@@ -68,6 +68,12 @@ scoop bucket add nonportable
 scoop info burp-suite-community-np
 scoop cat burp-suite-community-np
 scoop install burp-suite-community-np
+
+# laragon (https://laragon.org/ - https://github.com/leokhoa/laragon/)
+scoop install laragon
+
+# sqlite browser (https://sqlitebrowser.org/)
+scoop install sqlitebrowser
 ```
 
 ## 5. application with scoop
