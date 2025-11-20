@@ -186,3 +186,51 @@ CTF = E:\8_security\ctf_aria\
   - quick access link > add the your folder
   - general setting > Exclaude file/folder > add folder yang gak mau di scan (Opsional)
   - index search excluade path > tambahkan folder C:, D:, F:
+
+## spicetify
+### setup
+```bash
+# scoop install spotify
+scoop install spotify@1.2.17
+scoop prefix spotify
+# "C:\Users\ariaf\scoop\apps\spotify\current\Spotify.exe"
+
+scoop install spicetify-cli
+# C:\Users\ariaf\scoop\apps\spicetify-cli\current
+# C:\Users\ariaf\scoop\apps\spicetify-cli\current\Themes\
+```
+
+- buka folder config spicetify
+  ```bash
+  spicetify config-dir
+  ```
+- masukan config ini
+  ```ini
+  spotify_path = C:\Users\ariaf\scoop\apps\spotify\current
+  ```
+- atau ubah dengan ini
+  ```bash
+  spicetify config spotify_path "C:\Users\ariaf\scoop\apps\spotify\1.2.17"
+  ```
+
+```bash
+spicetify backup apply
+
+cd C:\Users\ariaf\scoop\apps\spicetify-cli\current
+git clone https://github.com/spicetify/spicetify-themes Themes
+
+mkdir "C:\Users\ariaf\.config\spicetify\Themes"
+move "C:\Users\ariaf\scoop\apps\spicetify-cli\current\Themes\Sleek" "C:\Users\ariaf\.config\spicetify\Themes"
+
+spicetify config current_theme Sleek
+spicetify config color_scheme base
+spicetify path all
+
+spicetify apply
+```
+
+## uninstall
+```bash
+scoop uninstall spotify
+scoop uninstall spicetify-cli
+```
