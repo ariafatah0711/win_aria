@@ -48,6 +48,8 @@ scoop info <package>
 ```bash
 scoop bucket add extras
 
+scoop install roundedtb
+
 scoop install git speedtest-cli openssh
 scoop install fastfetch adb scrcpy
 scoop install obsidian cursor

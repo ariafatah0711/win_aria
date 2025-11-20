@@ -49,3 +49,26 @@
 ### **Visual Effect**
 - **Accessbility > Visual Effect**
   - ** disable Animation **Effects**
+
+### **Stop Animation**
+- **Go to View Advance setting**
+- **Performance Options > Visual Effect**
+  - Animate controls and elements inside windows – animasi kecil di dalam aplikasi.
+  - Animate windows when minimizing and maximizing – animasi buka/minimize/maximize window.
+  - Animations in the taskbar – animasi taskbar saat pindah aplikasi/hover.
+  - Fade or slide menus into view – animasi menu muncul pelan (fade/slide).
+  - Fade or slide ToolTips into view – animasi tooltip muncul perlahan.
+  - Fade out menu items after clicking – menu hilang pakai efek fade.
+  - Slide open combo boxes – animasi dropdown terbuka dari atas ke bawah.
+  - Show shadows under windows – bayangan halus di bawah jendela.
+  - Show shadows under mouse pointer – bayangan kecil di bawah kursor.
+  - Show translucent selection rectangle – kotak seleksi file yang transparan.
+  - Show window contents while dragging – lihat isi jendela saat digerakkan.
+  - Show thumbnails instead of icons – tampilkan preview gambar/video, bukan ikon.
+  - Smooth edges of screen fonts – halusin tekstur font (anti-aliasing).
+  - Smooth-scroll list boxes – scrolling daftar jadi halus, bukan patah-patah.
+  - Use drop shadows for icon labels on the desktop – bayangan teks ikon desktop.
+  - Save taskbar thumbnail previews – simpan preview kecil aplikasi di taskbar.
+  - Enable Peek – fitur “peek desktop” saat hover pojok kanan (Aero Peek).
+
+  ![alt text](images/0_driver_setting/image-3.png)

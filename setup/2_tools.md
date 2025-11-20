@@ -151,3 +151,38 @@ scoop install autohotkey
 
 - buat shorcut ke file ahk mu di folder ini
 ```
+
+## 4. flow laucher
+- [Flow Launcher](https://flowlauncher.com/)
+
+### setup
+```bash
+scoop install Flow-Launcher
+```
+
+### plugins
+- [Start](https://github.com/stax76/Flow.Launcher.Plugin.Favorites)
+
+```bash
+# portable
+%APPDATA%\FlowLauncher\Settings\Favorites.conf
+
+# scoop
+C:\Users\<username>\scoop\persist\Flow-Launcher\UserData\
+C:\Users\ariaf\scoop\persist\Flow-Launcher\UserData\Favorites.conf
+```
+
+```Favorites = C:\Users\ariaf\scoop\persist\Flow-Launcher\UserData\Favorites.conf```
+```bash
+Favorites = C:\Users\ariaf\scoop\persist\Flow-Launcher\UserData\Favorites.conf
+VS Code = %LOCALAPPDATA%\Programs\Microsoft VS Code\Code.exe
+FGTE Folder = E:\8_security\FGTE\
+NF Folder = E:\6_sch\nf\S1\
+Download Folder = C:\Users\ariaf\Downloads\
+CTF = E:\8_security\ctf_aria\
+```
+
+- Explorer
+  - quick access link > add the your folder
+  - general setting > Exclaude file/folder > add folder yang gak mau di scan (Opsional)
+  - index search excluade path > tambahkan folder C:, D:, F:
