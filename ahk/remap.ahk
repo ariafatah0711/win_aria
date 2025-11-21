@@ -225,3 +225,9 @@ Alt & Enter:: Run("C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe", "
 
 ; ALT + F11 -> Fullscreen
 Alt & f:: Send("{F11}")
+
+; ALT + N → buka Notification Center
+Alt & n:: Send("#n")
+
+; ALT + N → buka Control Windows
+Alt & b:: Send("#a")
