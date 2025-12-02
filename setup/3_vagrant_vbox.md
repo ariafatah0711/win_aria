@@ -25,6 +25,13 @@ scoop install vagrant
 vagrant --version
 ```
 
+## plugin
+```bash
+vagrant plugin install vagrant-scp
+vagrant scp ./file.txt default:/path/in/vm/
+
+```
+
 > jangan lupa ubah path default vm ya biar enak
 
 1. Buka VirtualBox → File → Preferences → tab General → Default Machine Folder

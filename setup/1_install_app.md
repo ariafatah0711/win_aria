@@ -78,7 +78,12 @@ scoop install laragon
 scoop install sqlitebrowser
 ```
 
-## 5. application with scoop
+## 5. winget or co
+```bash
+winget install Cloudflare.WAR
+```
+
+## 6. application tambahan
 ### 1. office
 - [https://www.microsoft.com/en-us/download/details.aspx?id=49117](https://www.microsoft.com/en-us/download/details.aspx?id=49117)
 - [https://config.office.com/](https://config.office.com/)
@@ -100,7 +105,7 @@ scoop install sqlitebrowser
   irm https://get.activated.win | iex
   ```
 
-## 6. python library wajib
+## 7. python library wajib
 ```bash
 ```
 
