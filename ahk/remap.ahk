@@ -11,7 +11,7 @@ GoToDesktop(n) {
     currentDesktop := n
 
     ; Wait for desktop transition
-    Sleep(50)
+    Sleep(10)
 
     ; Try to focus window under mouse, silently fail if error
     try {

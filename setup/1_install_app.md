@@ -76,6 +76,9 @@ scoop install laragon
 
 # sqlite browser (https://sqlitebrowser.org/)
 scoop install sqlitebrowser
+
+# shutup10 untuk matiin kaya setingan tertentu gitu di windows biar gak ngirim data ke windows dll
+scoop install shutup10
 ```
 
 ## 5. winget or co
