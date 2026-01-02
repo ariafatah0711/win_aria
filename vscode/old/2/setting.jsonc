@@ -1,0 +1,236 @@
+{
+  /* Formatting */
+  "python.analysis.typeCheckingMode": "basic",
+  // "python.venvPath": "/home/aria/Dokumen/Python_Aria/env/bin/python",
+  "[javascript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[python]": {
+    "editor.formatOnType": true,
+    "editor.defaultFormatter": "ms-python.python"
+  },
+  "[html]": {
+    // "editor.formatOnSave": true,
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[css]": {
+    "editor.formatOnSave": true,
+    "editor.suggest.insertMode": "replace",
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+
+  /* VSCode Settings */
+  "workbench.startupEditor": "none",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "haskell.manageHLS": "GHCup",
+  "editor.accessibilitySupport": "off",
+  "prettier.printWidth": 130,
+  "liveServer.settings.donotShowInfoMsg": true,
+
+  /* Theme */
+  "workbench.colorTheme": "GitHub Dark Default",
+  "workbench.productIconTheme": "fluent-icons",
+  "workbench.iconTheme": "vscode-jetbrains-icon-theme-2023-dark",
+  "workbench.editor.empty.hint": "hidden",
+
+  /* Workbench Customizations */
+  "workbench.sideBar.location": "left",
+  // "workbench.activityBar.location": "hidden",
+  "workbench.colorCustomizations": {
+    "sideBar.background": "#0d1117",
+    "sideBar.foreground": "#808498",
+    "terminal.background": "#0d1117",
+    "outputView.background": "#0d1117"
+  },
+
+  "workbench.editorAssociations": {
+        "*.md": "default",
+        "*.markdown": "default"
+  },
+
+  /* explorer dan fiels */
+  "explorer.compactFolders": false,
+  "files.trimTrailingWhitespace": true,
+  "files.trimFinalNewlines": true,
+  "files.insertFinalNewline": true,
+
+  /* Breadcrumbs */
+  "breadcrumbs.enabled": false,
+  "breadcrumbs.symbolPath": "off",
+  "breadcrumbs.filePath": "on",
+
+  /* Editor */
+  "editor.fontLigatures": true,
+  // "editor.fontFamily": "Fira Code",
+  "editor.fontFamily": " Fira Code, Geist Mono, JetBrains Mono, Fira Code",
+  "editor.fontSize": 12,
+  "editor.lineHeight": 20,
+  "editor.fontWeight": 450,
+  "editor.lineNumbers": "on",
+  "editor.folding": false,
+  "editor.glyphMargin": true,
+  "editor.guides.indentation": false,
+  "editor.scrollbar.horizontal": "auto",
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "editor.cursorStyle": "underline",
+  "editor.minimap.enabled": false,
+  "editor.wordWrap": "on",
+  "editor.stickyScroll.enabled": true,
+
+  //   "editor.matchBrackets": "never",
+  //   "problems.decorations.enabled": false,
+  //   "editor.lightbulb.enabled": "off",
+  //   "editor.selectionHighlight": false,
+  //   "editor.occurrencesHighlight": "off",
+  //   "editor.renderLineHighlight": "none",
+  //   "editor.colorDecorators": false,
+
+  /* Terminal */
+  "terminal.integrated.suggest.enabled": false,
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+  "terminal.integrated.fontSize": 11.5,
+  "terminal.integrated.enableMultiLinePasteWarning": "always",
+  "terminal.integrated.cursorStyle": "underline",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": ["${env:windir}\\Sysnative\\cmd.exe", "${env:windir}\\System32\\cmd.exe"],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    },
+    "Windows PowerShell": {
+      "path": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.shellIntegration.enabled": false,
+
+  /* Git */
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+
+  /* GitLens */
+  "gitlens.graph.layout": "editor",
+  "security.workspace.trust.untrustedFiles": "open",
+
+  /* Custom CSS */
+  "vscode_custom_css.imports": [
+    //   for windows
+    "file:///E:/1_config/win_aria/vscode/style.css",
+    "file:///E:/1_config/win_aria/vscode/script.js"
+    //   for linux
+    //   "file:///opt/vscode/win_aria/vscode/style.js",
+    //   "file:///opt/vscode/win_aria/vscode/script.js",
+  ],
+
+  /* Paste Image */
+  "pasteImage.path": "${currentFileDir}/images/${documentBaseName}",
+  "pasteImage.basePath": "${currentFileDir}",
+  "pasteImage.prefix": "",
+  "pasteImage.format": "![Alt Text](./${imageFilePath})",
+  "pasteImage.showFilePathConfirmInputBox": false,
+
+  /* Markdown */
+  "markdown.copyFiles.destination": {
+    "**/*": "images/${documentBaseName}/"
+  },
+
+  "vscode-office.pasterImgPath": "images/${fileName}/${now}.png",
+
+  /* Database */
+  "database-client.autoSync": true,
+  "discord.detailsEditing": "Editing ariaf.my.id/index.html",
+  "discord.lowerDetailsIdling": "Editing ariaf.my.id/index.html",
+  "discord.detailsIdling": "Editing ariaf.my.id/index.html",
+  "discord.detailsDebugging": "Editing ariaf.my.id/index.html",
+  "discord.lowerDetailsDebugging": "Editing ariaf.my.id/index.html",
+  "discord.lowerDetailsEditing": "Workspace: ariaf.my.id",
+  "discord.removeRemoteRepository": true,
+  "discord.removeTimestamp": true,
+
+  "discord.smallImage": "https://raw.githubusercontent.com/ariafatah0711/win_aria/refs/heads/main/vscode/image/2.png",
+  "discord.largeImage": "https://raw.githubusercontent.com/ariafatah0711/win_aria/refs/heads/main/vscode/image/2.png",
+  "discord.largeImageIdling": "https://raw.githubusercontent.com/ariafatah0711/win_aria/refs/heads/main/vscode/image/2.png",
+
+  // /* VSCord Settings */
+  // "vscord.app.privacyMode.enable": true,
+  // "vscord.app.whitelistEnabled": false,
+  // "vscord.app.whitelistIsBlacklist": false,
+
+  // /* VSCord Status */
+  // "vscord.status.details.text.notInFile": "Editing README.md",
+  // "vscord.status.details.text.editing": "Editing README.md",
+  // "vscord.status.details.text.viewing": "Editing README.md",
+  // "vscord.status.details.text.debugging": "Editing README.md",
+  // "vscord.status.details.text.idle": "Editing README.md",
+
+  // "vscord.status.image.large.notInFile.key": "https://raw.githubusercontent.com/ariafatah0711/win_aria/refs/heads/main/vscode/image/2.png",
+  // "vscord.status.image.large.editing.key": "https://raw.githubusercontent.com/ariafatah0711/win_aria/refs/heads/main/vscode/image/2.png",
+  // "vscord.status.image.large.viewing.key": "https://raw.githubusercontent.com/ariafatah0711/win_aria/refs/heads/main/vscode/image/2.png",
+  // "vscord.status.image.large.debugging.key": "https://raw.githubusercontent.com/ariafatah0711/win_aria/refs/heads/main/vscode/image/2.png",
+  // "vscord.status.image.large.idle.key": "https://raw.githubusercontent.com/ariafatah0711/win_aria/refs/heads/main/vscode/image/2.png",
+
+  // "vscord.status.details.enabled": true,
+  // "vscord.status.problems.enabled": false,
+  // "vscord.status.details.idle.enabled": true,
+  // "vscord.status.idle.enabled": true,
+  // "vscord.status.state.enabled": false,
+
+  /* button */
+  //   "vscord.status.buttons.button1.active.enabled": true,
+  //   "vscord.status.buttons.button1.git.idle.enabled": true,
+  //   "vscord.status.buttons.button1.idle.enabled": true,
+  //   "vscord.status.buttons.button1.idle.label": "test",
+  //   "vscord.status.buttons.button1.idle.url": "https://ariaf.my.id",
+  //   "vscord.status.buttons.button1.enabled": true,
+  //   "vscord.status.buttons.button1.active.label": "Kunjungi Situs",
+  //   "vscord.status.buttons.button1.active.url": "https://ariaf.my.id",
+
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "docker.extension.enableComposeLanguageServer": false,
+  // "workbench.experimental.share.enabled": true,
+  "window.customTitleBarVisibility": "windowed",
+  // "tabnine.experimentalAutoImports": true,
+  "[dockercompose]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.autoIndent": "advanced",
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": false,
+      "strings": true
+    },
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "[github-actions-workflow]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "gitlens.ai.model": "vscode",
+  "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": true,
+    "markdown": true,
+    "scminput": false
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+}
