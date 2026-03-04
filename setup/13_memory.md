@@ -30,4 +30,14 @@ Gunakan tool **RAMMap** untuk melihat detail memory usage.
 - Microsoft Edge: Settings → System → Hardware acceleration → Off
 - Discord: User Settings → Advanced → Hardware Acceleration → Off
 
-##
+## Reliability Monitor
+Jika RAM tiba-tiba penuh, bisa jadi ada aplikasi atau driver yang mengalami crash atau error yang menyebabkan memory leak.
+1. Buka Reliability Monitor:
+- Tekan `Win + R`, ketik `perfmon /rel`, lalu tekan Enter.
+2. Periksa timeline untuk melihat apakah ada aplikasi atau driver yang mengalami crash atau error.
+- Jika ada, klik pada event tersebut untuk melihat detailnya.
+- Cari aplikasi atau driver yang sering mengalami masalah, karena ini bisa menjadi penyebab memory leak.
+3. Jika menemukan aplikasi atau driver yang bermasalah, coba update atau reinstall aplikasi tersebut.
+- Update aplikasi melalui Microsoft Store atau situs resmi.
+
+![1772667719331](images/13_memory/1772667719331.png)
